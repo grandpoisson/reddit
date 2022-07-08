@@ -102,7 +102,7 @@ const sendVote = async (up) => {
                                 to add a comment
                         </p>
                     )}
-                    <Comments comments={post.comments} />
+                    <Comments comments={post.comments} post={post} />
             </div>
         </div>
     </>
