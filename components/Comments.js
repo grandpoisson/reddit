@@ -13,7 +13,6 @@ const Comment = ({ comment, post }) => {
       <p>{comment.content}</p>
       {showReply ? (
         <div className='pl-10'>
-          <NewComment post={post} />
           <NewComment comment={comment} post={post} />
         </div>
       ) : (
